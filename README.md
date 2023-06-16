@@ -54,6 +54,7 @@ async function deleteTask(id: string): Promise<boolean>
   ```env
   PORT=
   REGION=
+  TABLE_NAME=
   AWS_ACCESS_KEY=
   AWS_SECRET_KEY=
   ```
