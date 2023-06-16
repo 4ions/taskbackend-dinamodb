@@ -48,7 +48,7 @@ async function deleteTask(id: string): Promise<boolean>
 
 ### Instalación
 
-- Clona el repositorio: git clone https://github.com/tu-usuario/gestor-de-tareas.git
+- Clona el repositorio: git [clone https://github.com/tu-usuario/gestor-de-tareas.git](https://github.com/4ions/taskbackend-dinamodb)
 - Instala las dependencias: npm install
 - Configura tus credenciales de AWS en las variables de entorno o en la configuración de AWS CLI.
 - Actualiza el nombre de la tabla de DynamoDB en el código para que coincida con tu configuración.
