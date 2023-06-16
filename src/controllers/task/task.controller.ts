@@ -2,7 +2,9 @@ import { DynamoDB } from 'aws-sdk';
 import { BD } from '../../bd/index';
 import { Task } from '../../bd/interface/bd.interface';
 import { v4 as uuidv4 } from 'uuid';
-const TASK_TABLE = "Task";
+import dotenv from 'dotenv';
+dotenv.config();
+const TASK_TABLE = process.env.TABLE_NAME;
 
 export async function createTask(task:String, details?:String): Promise<Boolean>  {
 
