@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de compilación de TypeScript
+dist/
+*.js
+*.js.map
+
+# Archivos de configuración
+.env
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Otros archivos y carpetas generados
+coverage/
+*.log
+*.swp
+.DS_Store
